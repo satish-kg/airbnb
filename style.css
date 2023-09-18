@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #eb6d70;
+    
+}
+#root{
+    margin-left: 20%;
+    margin-right: 20%;
+    /* border: 2px solid red; */
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    height: 120%;
+    /* margin-bottom: 2%; */
+    /* justify-items: space-between; */
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+    /* box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1); */
+}
+.nav-text{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-evenly;
+    padding-right: 5%;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    /* color: rgb(224, 19, 19); */
+    /* border: 2px solid green */
+}
+.airbnb-logo{
+    width: 15%;
+    padding-left: 5%;
+}
+.image-grid-img{
+    /* border: 1px solid #eb6d70; */
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.image-grid{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4.5%;
+    /* padding-right: auto; */
+    overflow : hidden;
+    max-width : 90%;
+}
+.card-list{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    /* border: 2px solid green; */
+}
+.card{
+    width: 175px;
+    /* height: 100; */
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+    /* border: 2px solid red; */
+}
+.card-image {
+    width: 100%;
+    height: 100;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+/* ADD */
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card-star {
+    height: 14px;
+}
+
+/* ADD */
+.card-price {
+    margin-top: auto;
+}
+
+.card-badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
