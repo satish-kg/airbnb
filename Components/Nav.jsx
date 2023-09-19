@@ -4,7 +4,7 @@ export default function Nav(){
     return(
         <div>
             <nav className="navbar">
-                <img className="airbnb-logo" src="../images/airbnb-logo.png" />
+                <img className="airbnb-logo" src="/airbnb-logo.png" />
                 <div className="nav-text">
                     <a href="#">Home</a>
                     <a href="#">About</a>
